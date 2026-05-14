@@ -1,26 +1,26 @@
 class Gpk < Formula
   desc "TUI dashboard that unifies 34 package managers into one searchable view"
   homepage "https://github.com/neur0map/glazepkg"
-  version "0.5.1"
+  version "0.5.2"
   license "GPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.1/gpk-darwin-arm64"
-      sha256 "dc7f9e3a54d0785fdb2d82f9395be219610c564359229d6520f9edb213f7f7f1"
+      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.2/gpk-darwin-arm64"
+      sha256 "e494205f6978792b1e275c812d9d396d6823774b7734d07057feaed44b64ec77"
     else
-      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.1/gpk-darwin-amd64"
-      sha256 "d165f736f76bb3171d6b29f890a7b27f417c894c45c3b111fe007033e1b04a30"
+      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.2/gpk-darwin-amd64"
+      sha256 "f22ae59507e627fff520ec7ddaa9f11f657441f05e40ac357c44d14ebf320023"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.1/gpk-linux-arm64"
-      sha256 "a4c630656c652870f85908449ffb67507111efb70de41a686c43974d7eb6be61"
+      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.2/gpk-linux-arm64"
+      sha256 "2f40ac2b09421b28fedf796739918addd24519c7d8f22c6b20099642a77e8dcd"
     else
-      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.1/gpk-linux-amd64"
-      sha256 "b5c7559b7af6c007615caaaf175b253f09e85cff803ad586e6182185a0ae1928"
+      url "https://github.com/neur0map/glazepkg/releases/download/v0.5.2/gpk-linux-amd64"
+      sha256 "b87a95b0abe709316fa5ddd8087516d7d89e943f3ff6817ad833c07efd7b0f30"
     end
   end
 
